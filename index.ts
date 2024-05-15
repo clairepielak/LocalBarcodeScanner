@@ -138,8 +138,7 @@ function processTrackedBarcodes(): void {
       serialNumberFound &&
       lotNumberFound
     ) {
-      const audio = document.getElementById('playBeep') as HTMLAudioElement;
-      audio.play;
+      
       
       barcodeTracking?.setEnabled(false);
       doneButton.style.backgroundColor = '#007bff';
